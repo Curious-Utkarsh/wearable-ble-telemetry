@@ -6,7 +6,7 @@
 
 A body-worn sensor node that streams motion and physiological data to a browser in real time through four hops. An nRF52840 board reads an IMU, an ECG front end, a load cell and a pulse-oximetry sensor and publishes them as BLE characteristics; an ESP32 gateway subscribes, converts to JSON and passes it over UART to a second ESP32, which forwards it over Wi-Fi and WebSockets to a Python hub and a live dashboard.
 
-Built during my Research Assistant role at IIT Bombay (NCAIR, Machine Intelligence Program), 2026.
+Built in 2026.
 
 ## How it works
 
