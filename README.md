@@ -31,6 +31,8 @@ ESP32 #1  BLE client → JSON  ──UART──▶  ESP32 #2  Wi-Fi + WebSocket
 
 `wearables.ino` sensor node (nRF52840) · `blercv-uart-trans.ino` BLE → UART gateway · `uartrcv-wifi.ino` UART → Wi-Fi/WebSocket · `server.py` hub · `dashboard.html` live view
 
+For `uartrcv-wifi.ino`, copy `secrets.h.example` to `secrets.h` and set your Wi-Fi name, password and the hub's IP address; `secrets.h` is git-ignored.
+
 ## Known quirk
 
 The node's IMU format differs from what the hub expects; a regular expression in `server.py` compensates.

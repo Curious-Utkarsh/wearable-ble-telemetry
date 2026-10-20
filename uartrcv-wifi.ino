@@ -1,14 +1,15 @@
 #include "WiFi.h"
 #include <WebSocketsClient.h>
+#include "secrets.h"  // copy secrets.h.example to secrets.h and fill in your values
 
 #define BATCH_SIZE 1
 #define MAX_BUFFER_SIZE 256
 #define ONBOARD_LED 2
 
-const char* ssid = "NCAIR IOT";
-const char* password = "Asim@123Tewari";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
-const char* ws_host = "10.185.153.66";
+const char* ws_host = WS_HOST;
 const uint16_t ws_port = 1234;
 const char* ws_path = "/";
 
