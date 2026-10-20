@@ -39,7 +39,7 @@ The node's IMU format differs from what the hub expects; a regular expression in
 
 ## Related
 
-[ESP32 EEG recorder](https://github.com/Curious-Utkarsh/EEG_UDL) · [High-rate vibration DAQ](https://github.com/Curious-Utkarsh/Teensy_Esp)
+[ESP32 EEG recorder](https://github.com/Curious-Utkarsh/esp32-eeg-recorder) · [High-rate vibration DAQ](https://github.com/Curious-Utkarsh/vibration-daq-teensy-esp32)
 
 ---
 [Kumar Utkarsh](https://github.com/Curious-Utkarsh) · [LinkedIn](https://www.linkedin.com/in/kumar-utkarsh-124aab227/)
